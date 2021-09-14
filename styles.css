@@ -193,6 +193,12 @@ font-family: 'Poppins', sans-serif;
     color: var(--red);
 }
 
+@media screen and (max-width: 768px) {
+    .services__container {
+        grid-template-columns: 1fr;
+    }    
+}
+
 /* Membership Section */
 .memberships {
     background: var(--black);
