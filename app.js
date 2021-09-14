@@ -64,7 +64,7 @@ gsap.from('.animate-team', {
     opacity: 0,
     y: -150,
     stagger: 0.3,
-    delay: 0.2
+    delay: 0.4
 });
 
 gsap.from('.animate-email', {
@@ -73,7 +73,7 @@ gsap.from('.animate-email', {
     opacity: 0,
     y: -150,
     stagger: 0.25,
-    delay: 0.4
+    delay: 0.3
 });
 
 gsap.from('.animate-left', {
