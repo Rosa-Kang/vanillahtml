@@ -627,3 +627,37 @@ a.signin__key:hover {
     font-size: 0.8rem;
     padding-bottom: 0.5rem;
 }
+
+@media screen and (max-width: 768px) {
+
+    #form-body {
+        background: url(./images/gym4.jpg);
+        object-fit: contain;
+    }
+
+    .signup__form {
+        width: 89%;
+        height: 70%;
+        padding: 200px 50px 100px;
+    }
+
+    .submit__buttons {
+        flex-direction: column;
+    }
+
+    .button.marginal {
+        width: 40%;
+        padding: 8px;
+        margin-bottom: 28px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    .signup__form {
+        width: 90%;
+        height: 90%;
+        padding: 50px 20px 10px;
+    }
+}
